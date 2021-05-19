@@ -76,7 +76,7 @@ export const IDO_POOLS: IdoPool[] = [
     programId: IDO_PROGRAM_ID,
     snapshotProgramId: '4kCccBVdQpsonm2jL2TRV1noMdarsWR2mhwwkxUTqW3W',
 
-    isRayPool: true,
+    isRayPool: false,
     idoId: 'AUSLbxn9UgqdP61wkeMrutdvp2uTfLBxzFBfmLiVqDPS',
     baseVault: 'GqBCDDpBR3ju3inKHAkRTFzGLGFRo7mFVYCYNAbCzuaC',
     quoteVault: 'FqLEDQnZozFV9WiF4j1cgE9UqetgWNEzLRVbUt5AJBX4'
@@ -92,7 +92,7 @@ export const IDO_POOLS: IdoPool[] = [
     programId: IDO_PROGRAM_ID,
     snapshotProgramId: '4kCccBVdQpsonm2jL2TRV1noMdarsWR2mhwwkxUTqW3W',
 
-    isRayPool: true,
+    isRayPool: false,
     idoId: 'EFnvwDxehFLycdUp6DiwcyBTz88qcZFP3KUDfmPU4Fdc',
     baseVault: '2WCoJRu1w6awJR7PvCc1mWKR9XpPNZDFyBDBX713k8ng',
     quoteVault: '21XBxBZn3tX8aaJKm1KKm6sWsLUxsMedV3a1CvNBW2m9'
