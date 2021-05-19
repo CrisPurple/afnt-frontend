@@ -77,9 +77,9 @@ export const IDO_POOLS: IdoPool[] = [
     snapshotProgramId: '4kCccBVdQpsonm2jL2TRV1noMdarsWR2mhwwkxUTqW3W',
 
     isRayPool: false,
-    idoId: 'AUSLbxn9UgqdP61wkeMrutdvp2uTfLBxzFBfmLiVqDPS',
-    baseVault: 'GqBCDDpBR3ju3inKHAkRTFzGLGFRo7mFVYCYNAbCzuaC',
-    quoteVault: 'FqLEDQnZozFV9WiF4j1cgE9UqetgWNEzLRVbUt5AJBX4'
+    idoId: '3phgXrkHbMmVLUbUvXPXsnot9WxkdyvVEyiA8odyWY8s',
+    baseVault: '2Gxcw4Vo7zGGNg9JxksrWYazcpQTWNi8JdQkF3bF5yaN',
+    quoteVault: '6TyVHwiEaDRQCf398QjvC6JLqPzK9REvMiS6DsCWG5o4'
   },
   {
     base: { ...TOKENS.MEDIA },
