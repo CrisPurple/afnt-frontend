@@ -4,7 +4,7 @@
       <img src="../assets/background/info_background.svg" class="image" />
       <div class="node_div" style="padding-top: 70px">
         <a href="/">
-          <img src="../assets/icons/logo-text.svg" class="big_logo" />
+          <img src="../assets/icons/anft-text.png" class="big_logo" />
         </a>
       </div>
     </div>
