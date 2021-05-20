@@ -331,6 +331,25 @@ export const TOKENS: Tokens = {
     decimals: 9,
     referrer: 'EFQVX1S6dFroDDhJDAnMTX4fCfjt4fJXHdk1eEtJ2uRY'
   },
+  ANFT: {
+    symbol: 'ANFT',
+    name: 'AffinityLabs',
+    mintAddress: '7Geyz6iiRe8buvunsU6TXndxnpLt9mg6iPxqhn6cr3c6',
+    decimals: 9,
+    referrer: '7Geyz6iiRe8buvunsU6TXndxnpLt9mg6iPxqhn6cr3c6',
+
+    details:
+      'AffinityLabs is an IDO platform with NFT auction. Affinity’s main goal is to bring NFT in the Solana ecosystem, enabling artist and creators to publish their work in a much safer and faster ecosystem. AffinityLabs has two main features, A platform for NFT or Decentralized project to raised funds and an NFT Auction that enables artist to publish their creation on the platform. Any artist are free to publish their work.',
+    docs: {
+      website: 'http://affinitylabs.tech/',
+      whitepaper: 'https://affinitylabs.tech/whitepaper/affinitylabs.pdf'
+    },
+    socials: {
+      Twitter: 'https://twitter.com/Affinity_Labs',
+      Telegram: 'https://t.me/AffinityLabs',
+      Medium: 'https://affinitylabs.medium.com/'
+    }
+  },
   MEDIA: {
     symbol: 'MEDIA',
     name: 'MEDIA',

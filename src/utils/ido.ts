@@ -50,68 +50,20 @@ export interface IdoPool {
 
 export const IDO_POOLS: IdoPool[] = [
   {
-    base: { ...TOKENS.MER },
+    base: { ...TOKENS.ANFT },
     quote: { ...TOKENS.USDC },
 
-    price: new TokenAmount(0.125, TOKENS.USDC.decimals, false),
-    raise: new TokenAmount(1000000, TOKENS.MER.decimals, false),
+    price: new TokenAmount(0.3, TOKENS.USDC.decimals, false),
+    raise: new TokenAmount(3000000, TOKENS.ANFT.decimals, false),
 
     version: 1,
     programId: IDO_PROGRAM_ID,
     snapshotProgramId: '4kCccBVdQpsonm2jL2TRV1noMdarsWR2mhwwkxUTqW3W',
 
-    isRayPool: true,
+    isRayPool: false,
     idoId: 'CMfy83XTuVGtWED9Aok3RGRmPbotUWic5JHPuRRLS6Zo',
     baseVault: '7M8u7TeKQt94tor7zbyx5XxrxrMW3Zk6eXXx7AbYT8aF',
     quoteVault: '5pXMRPTNaKjqJaRGNTbzPbAWUTJ4zfhcubSnZNspegkW'
-  },
-  {
-    base: { ...TOKENS.MER },
-    quote: { ...TOKENS.USDC },
-
-    price: new TokenAmount(0.125, TOKENS.USDC.decimals, false),
-    raise: new TokenAmount(1000000, TOKENS.MER.decimals, false),
-
-    version: 1,
-    programId: IDO_PROGRAM_ID,
-    snapshotProgramId: '4kCccBVdQpsonm2jL2TRV1noMdarsWR2mhwwkxUTqW3W',
-
-    isRayPool: false,
-    idoId: '3phgXrkHbMmVLUbUvXPXsnot9WxkdyvVEyiA8odyWY8s',
-    baseVault: '2Gxcw4Vo7zGGNg9JxksrWYazcpQTWNi8JdQkF3bF5yaN',
-    quoteVault: '6TyVHwiEaDRQCf398QjvC6JLqPzK9REvMiS6DsCWG5o4'
-  },
-  {
-    base: { ...TOKENS.MEDIA },
-    quote: { ...TOKENS.USDC },
-
-    price: new TokenAmount(10, TOKENS.USDC.decimals, false),
-    raise: new TokenAmount(50000, TOKENS.MEDIA.decimals, false),
-
-    version: 1,
-    programId: IDO_PROGRAM_ID,
-    snapshotProgramId: '4kCccBVdQpsonm2jL2TRV1noMdarsWR2mhwwkxUTqW3W',
-
-    isRayPool: false,
-    idoId: 'EFnvwDxehFLycdUp6DiwcyBTz88qcZFP3KUDfmPU4Fdc',
-    baseVault: '2WCoJRu1w6awJR7PvCc1mWKR9XpPNZDFyBDBX713k8ng',
-    quoteVault: '21XBxBZn3tX8aaJKm1KKm6sWsLUxsMedV3a1CvNBW2m9'
-  },
-  {
-    base: { ...TOKENS.MEDIA },
-    quote: { ...TOKENS.USDC },
-
-    price: new TokenAmount(10, TOKENS.USDC.decimals, false),
-    raise: new TokenAmount(50000, TOKENS.MEDIA.decimals, false),
-
-    version: 1,
-    programId: IDO_PROGRAM_ID,
-    snapshotProgramId: '11111111111111111111111111111111',
-
-    isRayPool: false,
-    idoId: '3phgXrkHbMmVLUbUvXPXsnot9WxkdyvVEyiA8odyWY8s',
-    baseVault: '2Gxcw4Vo7zGGNg9JxksrWYazcpQTWNi8JdQkF3bF5yaN',
-    quoteVault: '6TyVHwiEaDRQCf398QjvC6JLqPzK9REvMiS6DsCWG5o4'
   }
 ]
 
