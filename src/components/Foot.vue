@@ -1,17 +1,15 @@
 <template>
   <Footer :class="isMobile ? 'mobile' : 'pc'">
     <div v-if="!isMobile" class="logo">
-      <a href="/"><img src="@/assets/icons/logo-text.svg" /></a>
+      <a href="/"><img src="@/assets/icons/mobile-logo.png" /></a>
     </div>
     <div class="link-menu">
       <a :href="linkUrl.home"><span>Home</span></a>
       <img v-if="!isMobile" class="logo" src="@/assets/icons/round.svg" />
-      <a :href="linkUrl.app"><span>App</span></a>
-      <img v-if="!isMobile" class="logo" src="@/assets/icons/round.svg" />
-      <a :href="linkUrl.info"><span>Info</span></a>
+      
     </div>
     <div class="icon_list">
-      <a :href="linkUrl.twitter" target="_blank" style="margin-left: 10px">
+      <a :href="linkUrl.  " target="_blank" style="margin-left: 10px">
         <img src="@/assets/icons/twitter.svg" width="20" height="20" />
       </a>
       <a :href="linkUrl.discord" target="_blank" style="margin-left: 10px">
@@ -25,7 +23,7 @@
       </a>
     </div>
     <div v-if="isMobile" class="logo">
-      <a href="/"><img src="@/assets/icons/logo-text.svg" /></a>
+      <a href="/"><img src="@/assets/icons/mobile-logo.png" /></a>
     </div>
   </Footer>
 </template>
@@ -48,10 +46,9 @@ export default class Foot extends Vue {
     home: '/',
     app: '/swap',
     info: '/info',
-    twitter: 'https://twitter.com/RaydiumProtocol',
-    discord: 'https://discord.com/invite/6EvFwvCfpx',
-    telegram: 'https://t.me/raydiumprotocol',
-    medium: 'https://raydium.medium.com/'
+    twitter: 'https://twitter.com/Affinity_Labs',
+    telegram: 'https://t.me/AffinityLabs',
+    medium: 'https://affinitylabs.medium.com/'
   }
 
   get isMobile() {

@@ -15,8 +15,8 @@
               <span v-else class="community"><span>Community Pool</span></span>
             </span>
             <span class="status">
-              <span v-if="pool.info.endTime < getUnixTs() / 1000" class="ended"> Ended </span>
-              <span v-else-if="pool.info.startTime < getUnixTs() / 1000" class="open"> Open </span>
+              <span v-if="pool.info.endTime < getUnixTs() / 100000000000" class="ended"> Ended </span>
+              <span v-else-if="pool.info.startTime < getUnixTs() / 100000000000" class="open"> Open </span>
               <span v-else class="upcoming"> Upcoming </span>
             </span>
           </div>
@@ -260,12 +260,6 @@
               <span class="key">Requirements to join</span>
               <span class="text">
                 {{ pool.isRayPool ? `${pool.info.minStakeLimit.format()} RAY staked` : 'No limit' }}
-              </span>
-            </div>
-            <div class="infos flex">
-              <span class="key">RAY staking deadline</span>
-              <span class="text">
-                {{ $dayjs((pool.info.startTime - 3600 * 24 * 7) * 1000) }}
               </span>
             </div>
           </TabPane>

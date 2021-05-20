@@ -78,8 +78,8 @@
           }}%
         </span>
         <span slot="status" slot-scope="info" class="status">
-          <span v-if="info.endTime < getUnixTs() / 1000" class="ended"> Ended </span>
-          <span v-else-if="info.startTime < getUnixTs() / 1000" class="open"> Open </span>
+          <span v-if="info.endTime < getUnixTs() / 100000000000" class="ended"> Ended </span>
+          <span v-else-if="info.startTime < getUnixTs() / 100000000000" class="open"> Open </span>
           <span v-else class="upcoming"> Upcoming </span>
         </span>
       </Table>
