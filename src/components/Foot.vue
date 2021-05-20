@@ -9,7 +9,7 @@
       
     </div>
     <div class="icon_list">
-      <a :href="linkUrl.  " target="_blank" style="margin-left: 10px">
+      <a :href="linkUrl.twitter" target="_blank" style="margin-left: 10px">
         <img src="@/assets/icons/twitter.svg" width="20" height="20" />
       </a>
       <a :href="linkUrl.discord" target="_blank" style="margin-left: 10px">
