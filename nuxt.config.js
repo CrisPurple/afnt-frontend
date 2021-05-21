@@ -10,14 +10,14 @@ export default {
 
   srcDir: './src/',
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+  ssr: true,
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Raydium',
+    title: 'AffinityLabs',
     htmlAttrs: {
       lang: 'en'
     },
